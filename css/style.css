@@ -198,10 +198,7 @@ section {
 
 }
 
-.popular-features h3::after {
-  border-bottom: 1px solid gray;
-  width: 100%;
-}
+
 
 .orange-button {
 -moz-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
@@ -243,4 +240,28 @@ background-color:#e4685d;
 .orange-button:active {
 position:relative;
 top:1px;
+}
+
+
+.icon {
+  color: #ff7a59;
+  padding: 1px 10px;
+}
+
+.threeboxes {
+  width: 60%;
+  margin: auto;
+  position: relative;
+  margin-top: 20px;
+
+
+}
+.threeboxes-element img {
+  width: 100px;
+}
+.threeboxes-element {
+  display: inline-block;
+  background-color: white;
+  width: 30%;
+  padding: 25px;
 }
