@@ -319,7 +319,7 @@ top:1px;
 .third-section-first-wrapper {
   width: 50%;
   margin: auto;
-  display: flex;
+
 
 }
 .left-div {
@@ -329,7 +329,7 @@ top:1px;
 }
 .right-div {
   width: 60%;
-  float: right;
+
   margin: auto;
 }
 .home-customers__logo-wrapper {
@@ -364,10 +364,40 @@ text-align: left;
 }
 .right-div-2 {
   width: 40%;
-  float: right;
-  margin: auto;
+float: right;
 }
+.clearfix {
+  overflow: auto;
+}
+
 footer {
-  background-color: darkblue;
-  width: 100%;
+  background-color: #33475b;
+  color: white;
+}
+.footer-wrapper {
+  width: 70%;
+  margin:auto;
+
+}
+.footer-menu {
+  display: inline-block;
+  width: 23%;
+  margin: auto;
+
+}
+.footer-menu-wrapper {
+  padding: 70px 0;
+
+}
+.footer-menu li {
+  list-style: none;
+
+}
+
+#footer-button {
+
+
+  float: right;
+
+
 }
